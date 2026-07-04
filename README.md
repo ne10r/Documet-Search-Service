@@ -4,6 +4,8 @@
 
 ## Запуск
 
+Перед запуском создайте папку `data` и в неё положите файл `posts.csv`
+
 ```bash
 cp .env.example .env
 docker compose up -d --build
